@@ -43,4 +43,4 @@ for word in words:
 
 # In số lần xuất hiện của mỗi từ
 for word, count in word_count.items():
-    print(f"{word}: {count} lần")
+    print(f"{word}: {count} lần.")
