@@ -1,6 +1,6 @@
 ## Tạo Module tự định nghĩa và sử dụng
 ### B1: Tạo 1 thư mục đặt tên tùy ý, chẳng hạn 'my_lib'
-#### Trong thư mục này phải tạo file có tên '__init.py__', file nầy không cần có mã nguồn
+#### Trong thư mục này phải tạo file có tên '__init__.py', file nầy không cần có mã nguồn
 ### B2: Trong thư mục 'my_lib tạo file mã nguồn, chẳng hạn 'functions.py' chứa các thành phần tự cài đặt
 
 ### B3: Sử dụng module tự định nghĩa
@@ -28,3 +28,4 @@ print("Các số nguyên tố <= {}:".format(n))
 for i in range(2, n+1):
     if LaSNT(i):
         print("%5d" % i, end=" ")
+        

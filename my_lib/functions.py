@@ -7,3 +7,7 @@ def LaSNT(n):
         if n % i == 0:
             return False
     return True
+
+# Tạo hàm main
+if __name__ == '__main__':
+    SayHi()
