@@ -9,5 +9,6 @@ def LaSNT(n):
     return True
 
 # Tạo hàm main
-if __name__ == '__main__':
-    SayHi()
+# if __name__ == '__main__':
+#     SayHi()
+    
