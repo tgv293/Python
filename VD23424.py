@@ -18,10 +18,10 @@ def InSNT(n):
 
 
 def TimSNT(n):
-    for i in range(n+1, n*2):
-        if i > n and LaSNT(i):
-            print(i)
-            break
+    i = n + 1
+    while not LaSNT(i):
+        i += 1
+    return i
 
 
 if __name__ == '__main__':
@@ -29,5 +29,4 @@ if __name__ == '__main__':
     print(LaSNT(n))
     print("Các số nguyên tố <= {}:".format(n))
     InSNT(n)
-    print("\nSố nguyên tố nhỏ nhất lớn hơn n: ")
-    TimSNT(n)
+    print("\nSố nguyên tố nhỏ nhất lớn hơn {}: {} ".format(n, TimSNT(n)))
