@@ -68,3 +68,17 @@ print(myList)
 # Vd: Hãy tạo danh sách các số lẻ liên tiếp từ 1...100
 myOddNumbers = [i for i in range(1,101) if i % 2 != 0]
 print(myOddNumbers)
+
+# Lệnh for với kiểu từ điển
+personal_info = {
+    'Name':'Hoàng',
+    'Age':17,
+    'Height':1.70,
+    'Weight':68
+}
+# lặp 1 biến chạy
+for i in personal_info.items():
+    print(i)
+# lặp 2 biến chạy
+for k,v in personal_info.items():
+    print(k,v)
