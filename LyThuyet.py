@@ -82,3 +82,8 @@ for i in personal_info.items():
 # lặp 2 biến chạy
 for k,v in personal_info.items():
     print(k,v)
+# lệnh lặp for với hàm range()
+# for i in range(n):
+#     print(i)
+# có thể dùng for,while lồng nhau
+# for i in range(start,end,step)
