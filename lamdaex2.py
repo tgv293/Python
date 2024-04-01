@@ -2,7 +2,7 @@
 a = [1, 2, 3, 4]
 b = []
 for i in range(len(a)):
-    b.append(a[i]**2)
+    b.append(a[i] ** 2)
 print(b)
 # C2
 
